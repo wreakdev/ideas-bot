@@ -1,0 +1,12 @@
+# Py Caches
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Ideas data
+ideas.txt
+
+# Docker
+.dockerignore

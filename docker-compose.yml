@@ -1,0 +1,9 @@
+services:
+  ideabot:
+    build: .
+    container_name: ideabot
+    restart: always
+    env_file:
+      - .env
+    volumes:
+      - ./ideas.txt:/app/ideas.txt
