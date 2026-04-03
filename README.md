@@ -1,4 +1,4 @@
-# IdeasBot [I personally use it]
+# IdeasBot
 
 A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure.
 
