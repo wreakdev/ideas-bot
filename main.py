@@ -38,7 +38,7 @@ def get_ideas():
 def save_ideas(ideas):
     with open(ideas_f, "w", encoding="utf-8") as f:
         for idea in ideas:
-            f.write(f"{idea}")
+            f.write(f"{idea}\n")
 
 @restricted
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -65,8 +65,8 @@ async def list_ideas(update: Update, context: ContextTypes.DEFAULT_TYPE):
 @restricted
 async def remove_idea(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
-        index = int(context.args[0]) - 1 # by numbers of ideas
-        ideas = get_ideas()
+        index = int(context.args[0]) - 1
+        ideas = get_ideas(ideas)
         if 0 <= index < len(ideas):
             removed = ideas.pop(index)
             save_ideas(ideas)
