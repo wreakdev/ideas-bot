@@ -2,7 +2,7 @@
 
 A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure.
 
-![Preview](https://github.com/wpxq/ideas-bot/blob/main/ideasbot.png)
+![Preview](https://github.com/wreakdev/ideas-bot/blob/main/ideasbot.png)
 
 ## Features
 - **Private Access**: Restricts interaction to a specifix `user_id` using a custom `@restricted` decorator.
